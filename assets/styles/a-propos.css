@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    color: #4c4a4a;
+    background-color: #fdfcfb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: center/cover no-repeat url(/assets/img/background.jpg);
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #000000bf;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+h1, h2 {
+    color: #12B803D0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.about-us, .our-mission, .why-choose-us, .values {
+    margin-bottom: 2rem;
+}
+
+.about-us p, .our-mission p, .values p {
+    font-size: 1.1rem;
+    color: #e0dcdc;
+}
+
+ul {
+    padding-left: 1.5rem;
+    color: #e0dcdc;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.team-photo {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.team-photo img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #12B803D0;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    margin-top: auto;
+}
