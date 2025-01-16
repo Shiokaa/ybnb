@@ -142,6 +142,8 @@ form {
   margin-left: 300px;
   gap: 1rem;
   width: 100%;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 .form-title a {
@@ -152,7 +154,7 @@ form {
 }
 
 .form-title a:hover {
-  background-color: #3d3d3d21;
+  background-color: #acacac;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -160,8 +162,8 @@ form {
 
 .form-title svg {
   position: relative;
-  top: 7px;
-  left: 7px;
+  top: 3px;
+  left: 3px;
 }
 
 .form-left-container {
@@ -174,15 +176,18 @@ form {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  margin-left: 348px;
-  width: 50%;
+  margin-left: 300px;
+  width: 60%;
+  background-color: #ace6ae94;
+  border: 1px solid #3d3d3d7a;
+  border-radius: 20px;
 }
 
 .detail-title {
   display: flex;
   align-items: center;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
   margin-top: 35px;
 }
 
@@ -191,7 +196,7 @@ form {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .date-detail {
@@ -199,7 +204,7 @@ form {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .guest {
@@ -207,7 +212,7 @@ form {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .guest-detail {
@@ -215,13 +220,13 @@ form {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .sep {
   background: #000;
   height: 1px;
-  width: 100%;
+  width: 80%;
   opacity: 0.2;
   margin-top: 20px;
 }
@@ -230,7 +235,7 @@ form {
   display: flex;
   align-items: center;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
   margin-top: 20px;
 }
 
@@ -245,7 +250,7 @@ form {
   border-top-right-radius: 15px;
   background: none;
   border-bottom: none;
-  width: 100%;
+  width: 80%;
   padding: 0 40px;
   margin-bottom: -9px;
 }
@@ -265,12 +270,12 @@ form {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background: none;
-  width: 100%;
+  width: 80%;
   padding: 0 40px;
 }
 
 .connect {
-  width: 100%;
+  width: 80%;
   margin-top: 20px;
 }
 
@@ -279,7 +284,7 @@ form {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .country-choicer select {
@@ -304,7 +309,7 @@ form {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .tel input {
@@ -318,12 +323,20 @@ form {
   padding: 0 0 5px 20px;
 }
 
+.tel input::placeholder {
+  color: #3d3d3d;
+}
+
+.tel input:focus {
+  outline: none;
+}
+
 .details {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .details p {
@@ -336,7 +349,7 @@ form {
   justify-content: center;
   gap: 1rem;
   height: 60px;
-  width: 100%;
+  width: 80%;
   background-color: #e6dcb1;
   color: #3d3d3d;
   font-size: 1.5rem;
@@ -354,7 +367,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
   gap: 1rem;
 }
 
@@ -371,11 +384,14 @@ form {
   justify-content: center;
   gap: 1rem;
   height: 60px;
-  width: 100%;
+  width: 80%;
 }
 
 .connect-button button {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
   height: 60px;
   border: none;
   border-radius: 10px;
@@ -387,7 +403,7 @@ form {
 }
 
 .connect-button button:hover {
-  background-color: #f3f3f3;
+  background-color: #e6dcb1;
 }
 
 .connect-button button:focus {
@@ -396,26 +412,26 @@ form {
 
 .mail-connect {
   gap: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .mail-connect button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 60px;
   border: 1px solid #3d3d3d7a;
   border-radius: 10px;
   background: none;
   font-size: 1.5rem;
-  padding: 0 0 5px 20px;
+  padding: 0 10px 5px 20px;
   cursor: pointer;
-}
-
-.mail-connect button:focus {
-  outline: none;
+  margin-bottom: 20px;
 }
 
 .mail-connect button:hover {
-  background-color: #f3f3f3;
+  background-color: #e6dcb1;
 }
 
 .form-right-container {
@@ -434,6 +450,7 @@ form {
   width: 50%;
   border: 1px solid #3d3d3d7a;
   border-radius: 20px;
+  background-color: #ace6ae94;
 }
 
 .logement-details {
